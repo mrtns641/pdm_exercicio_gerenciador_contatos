@@ -1,11 +1,11 @@
 import { useState } from 'react';
-import { 
+import {
   Button,
   FlatList,
-  StyleSheet, 
-  Text, 
+  StyleSheet,
+  Text,
   TextInput,
-  View 
+  View
 } from 'react-native';
 
 export default function App() {
@@ -25,7 +25,7 @@ export default function App() {
   const adicionar = () => {
     setNomes(nomes => {
       setContadorNome(contadorNome + 1)
-      return [{key: contadorNome.toString(), value: nome, telefone: telefone}, ...nomes]
+      return [{ key: contadorNome.toString(), value: nome, telefone: telefone }, ...nomes]
     })
   }
 
