@@ -10,7 +10,7 @@ const BotaoCabecalho = (props) => {
             {...props}
             IconComponent={Ionicons}
             iconSize={23}
-            color={'black'}
+            color={'purple'}
         />
     )
 }

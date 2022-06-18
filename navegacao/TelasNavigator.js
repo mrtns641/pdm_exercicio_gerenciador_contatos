@@ -15,8 +15,8 @@ const container = (
         <Stack.Navigator
             initialRouteName="TelaInicial"
             screenOptions={{
-                headerStyle: { backgroundColor: 'black' },
-                headerTintColor: 'white'
+                headerStyle: { backgroundColor: 'white' },
+                headerTintColor: 'purple'
             }}
         >
             <Stack.Screen name="TelaContatos" component={TelaContatos}></Stack.Screen>
